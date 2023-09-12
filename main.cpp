@@ -7,14 +7,14 @@ int main()
 	int id;
 	string name;
 
-	cout << "ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> name;
-	cout << "ÇĞ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "í•™ë²ˆì„ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> id;
 
-	cout << endl << "<Ãâ·Â>" << endl;
-	cout << "ÀÌ¸§: " << name << endl;
-	cout << "ÇĞ¹ø: " << id << endl;
+	cout << endl << "<ì¶œë ¥>" << endl;
+	cout << "ì´ë¦„: " << name << endl;
+	cout << "í•™ë²ˆ: " << id << endl;
 
 	return 0;
 }
