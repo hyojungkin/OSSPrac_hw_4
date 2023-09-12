@@ -6,15 +6,19 @@ int main()
 {
 	int id;
 	string name;
+	string major;
 
-	cout << "ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš”: ";
+	cout << "ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ";
 	cin >> name;
-	cout << "í•™ë²ˆì„ ìž…ë ¥í•˜ì„¸ìš”: ";
+	cout << "ÇÐ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä: ";
 	cin >> id;
+	cout << "ÇÐ°ú¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cin >> major;
 
-	cout << endl << "<ì¶œë ¥>" << endl;
-	cout << "ì´ë¦„: " << name << endl;
-	cout << "í•™ë²ˆ: " << id << endl;
+	cout << endl << "<Ãâ·Â>" << endl;
+	cout << "ÀÌ¸§: " << name << endl;
+	cout << "ÇÐ¹ø: " << id << endl;
+	cout << "ÇÐ°ú: " << major << endl;
 
 	return 0;
 }
